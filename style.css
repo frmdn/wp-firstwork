@@ -1,0 +1,130 @@
+/*
+Theme Name: Bootstrap
+Theme URI: https://www.lyrathemes.com/bootstrap-wordpress-theme-tutorial/
+Author: Abby
+Author URI: https://www.lyrathemes.com
+Description: A basic theme using the Bootstrap framework.
+Version: 1.0
+Text Domain: bootstrapstarter
+*/
+
+
+.logo {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.logo img {
+	padding: 30px 10px;
+}
+
+#siangsa-head {
+	margin-top: -20px;
+}
+#siangsa-body {
+	background: #fb8b01;
+	color: white;
+	padding: 100px 10px;
+}
+
+.left-body {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.left-body h1 {
+	font-size: 36pt;
+	font-weight: bold;
+}
+
+.left-body small {
+	font-size: 26pt;
+	font-weight: lighter;
+}
+
+.right-body {
+	margin: 0 auto;
+	text-align: center;
+	/*padding-top:30px;*/
+}
+
+.btn {
+	padding: 6px 20px;
+	letter-spacing: 2pt;
+}
+
+.right-body button {
+	width: 150px;
+	margin-top: 30px;
+}
+
+.menu-bawah {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.menu-bawah > li {
+  position: relative;
+  display: block;
+}
+
+.menu-bawah > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
+.menu-bawah > li > a:hover,
+.menu-bawah > li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+}
+
+.navbar .navbar-inner {
+    padding: 0;
+}
+
+.menu-bawah {
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+.menu-bawah li {
+    display: table-cell;
+    width: 1%;
+    float: none;
+}
+
+.menu-bawah li a {
+	font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+    border-left: 1px solid rgba(255, 255, 255, .75);
+    border-right: 1px solid rgba(0, 0, 0, .1);
+    color: #a4a4a4;
+}
+
+.menu-bawah li a:hover {
+	color: green;
+}
+
+.menu-bawah li:first-child a {
+    border-left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.menu-bawah li:last-child a {
+    border-right: 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.navbar-inner {
+	color: black;
+	background: url("img/slash.png") repeat; 
+	/*background-repeat: repeat-x;*/
+}
+
+.menu-atas {
+	margin-top: 30px;
+}
